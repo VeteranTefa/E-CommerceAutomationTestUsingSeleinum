@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ecommerce.ConfirmPurchasing">
+        <methods>
+          <include name="Confirm"/>
+          <include name="openBrowser"/>
+          <include name="CloseWebsite"/>
+          <include name="checkout"/>
+          <include name="Payments"/>
+        </methods>
+      </class> <!-- ecommerce.ConfirmPurchasing -->
+      <class name="ecommerce.Search">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="SearchBox"/>
+          <include name="addToWithList"/>
+          <include name="CloseWebsite"/>
+          <include name="wishListToCart"/>
+          <include name="goToWishlistMenu"/>
+        </methods>
+      </class> <!-- ecommerce.Search -->
+      <class name="ecommerce.Logout">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logoutFromWebSite"/>
+          <include name="CloseWebsite"/>
+        </methods>
+      </class> <!-- ecommerce.Logout -->
+      <class name="ecommerce.Shopping">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="shoppingCart"/>
+          <include name="selectShopping"/>
+          <include name="CloseWebsite"/>
+          <include name="selectShopping2"/>
+          <include name="removeFromShoppingCart"/>
+        </methods>
+      </class> <!-- ecommerce.Shopping -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="23" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-07T10:18:29 EET" name="Suite" finished-at="2022-08-07T10:19:22 EET" duration-ms="52736">
+    <groups>
+    </groups>
+    <test started-at="2022-08-07T10:18:29 EET" name="Test" finished-at="2022-08-07T10:19:22 EET" duration-ms="52736">
+      <class name="ecommerce.RegisterandLogin">
+        <test-method signature="login_Test()[pri:0, instance:ecommerce.RegisterandLogin@4ec4f3a0]" started-at="2022-08-07T10:18:41 EET" name="login_Test" finished-at="2022-08-07T10:18:44 EET" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Test -->
+      </class> <!-- ecommerce.RegisterandLogin -->
+      <class name="ecommerce.ConfirmPurchasing">
+        <test-method signature="checkout()[pri:0, instance:ecommerce.ConfirmPurchasing@9597028]" started-at="2022-08-07T10:19:10 EET" name="checkout" finished-at="2022-08-07T10:19:13 EET" duration-ms="2625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="Confirm()[pri:1, instance:ecommerce.ConfirmPurchasing@9597028]" started-at="2022-08-07T10:19:13 EET" name="Confirm" finished-at="2022-08-07T10:19:14 EET" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Confirm -->
+        <test-method signature="Payments()[pri:2, instance:ecommerce.ConfirmPurchasing@9597028]" started-at="2022-08-07T10:19:14 EET" name="Payments" finished-at="2022-08-07T10:19:20 EET" duration-ms="6546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payments -->
+      </class> <!-- ecommerce.ConfirmPurchasing -->
+      <class name="ecommerce.Shopping">
+        <test-method signature="selectShopping()[pri:0, instance:ecommerce.Shopping@223191a6]" started-at="2022-08-07T10:18:44 EET" name="selectShopping" finished-at="2022-08-07T10:18:53 EET" duration-ms="8395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectShopping -->
+        <test-method signature="selectShopping2()[pri:1, instance:ecommerce.Shopping@223191a6]" started-at="2022-08-07T10:18:53 EET" name="selectShopping2" finished-at="2022-08-07T10:19:01 EET" duration-ms="7879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectShopping2 -->
+        <test-method signature="shoppingCart()[pri:2, instance:ecommerce.Shopping@223191a6]" started-at="2022-08-07T10:19:01 EET" name="shoppingCart" finished-at="2022-08-07T10:19:02 EET" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingCart -->
+        <test-method signature="removeFromShoppingCart()[pri:3, instance:ecommerce.Shopping@223191a6]" started-at="2022-08-07T10:19:02 EET" name="removeFromShoppingCart" finished-at="2022-08-07T10:19:03 EET" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromShoppingCart -->
+      </class> <!-- ecommerce.Shopping -->
+      <class name="ecommerce.OpenCloseBrowser">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:ecommerce.OpenCloseBrowser@16d04d3d]" started-at="2022-08-07T10:18:29 EET" name="openBrowser" finished-at="2022-08-07T10:18:41 EET" duration-ms="12026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="CloseWebsite()[pri:0, instance:ecommerce.OpenCloseBrowser@16d04d3d]" started-at="2022-08-07T10:19:22 EET" name="CloseWebsite" finished-at="2022-08-07T10:19:22 EET" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWebsite -->
+      </class> <!-- ecommerce.OpenCloseBrowser -->
+      <class name="ecommerce.Logout">
+        <test-method signature="logoutFromWebSite()[pri:0, instance:ecommerce.Logout@6069db50]" started-at="2022-08-07T10:19:20 EET" name="logoutFromWebSite" finished-at="2022-08-07T10:19:22 EET" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromWebSite -->
+      </class> <!-- ecommerce.Logout -->
+      <class name="ecommerce.Search">
+        <test-method signature="SearchBox()[pri:0, instance:ecommerce.Search@49139829]" started-at="2022-08-07T10:19:03 EET" name="SearchBox" finished-at="2022-08-07T10:19:05 EET" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBox -->
+        <test-method signature="addToWithList()[pri:1, instance:ecommerce.Search@49139829]" started-at="2022-08-07T10:19:05 EET" name="addToWithList" finished-at="2022-08-07T10:19:07 EET" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWithList -->
+        <test-method signature="goToWishlistMenu()[pri:2, instance:ecommerce.Search@49139829]" started-at="2022-08-07T10:19:07 EET" name="goToWishlistMenu" finished-at="2022-08-07T10:19:08 EET" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToWishlistMenu -->
+        <test-method signature="wishListToCart()[pri:3, instance:ecommerce.Search@49139829]" started-at="2022-08-07T10:19:08 EET" name="wishListToCart" finished-at="2022-08-07T10:19:10 EET" duration-ms="1842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishListToCart -->
+      </class> <!-- ecommerce.Search -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
